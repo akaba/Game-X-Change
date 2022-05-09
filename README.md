@@ -26,14 +26,14 @@ Use PHPMyAdmin to create the schema by executing scripts under the [db_schema](h
 
 
 #### 2.  Clone the Repository 
-*  To clone the [cs6400-2022-01-Team083](https://github.gatech.edu/cs6400-2022-01-spring/cs6400-2022-01-Team083) repo under `C:/wamp64/www/` execute
+*  To clone the repo under `C:/wamp64/www/` execute
 ```bash
-Git clone https://github.gatech.edu/cs6400-2022-01-spring/cs6400-2022-01-Team083 C:/wamp64/www/
+Git clone https://github.com/akaba/Game-X-Change C:/wamp64/www/
 ```
 
 After cloning using `VS Code` or in the `Git BASH` execute below commands to install and update the required dependencies.
 ```bash
-cd C:/wamp64/www/GameSwap/react_frontend
+cd C:/wamp64/www/Game-X-Change/react_frontend
 npm install 
 npm update
 ``` 
@@ -41,7 +41,7 @@ npm update
 #### 3.  Run the project.
 After all the packages downloaded and installed execute below command to run the project.
 ```bash
-cd C:/wamp64/www/GameSwap/react_frontend
+cd C:/wamp64/www/Game-X-Change/react_frontend
 npm start
 ``` 
 
