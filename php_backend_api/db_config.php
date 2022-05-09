@@ -2,8 +2,8 @@
 	// Database Connection
 	class DbConnect {
 		private $server = 'localhost';
-		private $dbname = 'gameswap';
-		private $user = 'myuser';
+		private $dbname = 'myDatabase';
+		private $user = 'myUser';
 		private $pass = 'myPass@2022';
 		
 		public $connection;
