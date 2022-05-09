@@ -35,7 +35,6 @@ After cloning using `VS Code` or in the `Git BASH` execute below commands to ins
 ```bash
 cd C:/wamp64/www/Game-X-Change/react_frontend
 npm install 
-npm update
 ``` 
 
 #### 3.  Run the project.
