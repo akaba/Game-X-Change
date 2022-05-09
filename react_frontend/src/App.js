@@ -103,7 +103,7 @@ function App() {
         </Routes>         
     
     </div>
-    <p className="text-center text-gray-500 text-xm">&copy; Gatech - Team 083 - CS6400 Spring 2022.</p>      
+    <p className="text-center text-gray-500 text-xm">&copy; GT.</p>      
 </div>
        
   );
