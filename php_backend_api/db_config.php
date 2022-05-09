@@ -3,8 +3,8 @@
 	class DbConnect {
 		private $server = 'localhost';
 		private $dbname = 'gameswap';
-		private $user = 'gatech';
-		private $pass = 'team083@2022';
+		private $user = 'myuser';
+		private $pass = 'myPass@2022';
 		
 		public $connection;
 
