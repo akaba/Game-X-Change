@@ -1,6 +1,6 @@
 
 -- DBA schema
-USE gameswap;
+
 
 
 CREATE TABLE `User` (
