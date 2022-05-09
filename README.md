@@ -9,7 +9,7 @@ Game-X-Change is a React.js project. The purpose of this project is to analyze, 
 *  [WAMP development environment version 3.2.6_x64](https://www.wampserver.com/en/)
 
 ### B.  Create Database schema & seed data
-Use PHPMyAdmin to create the schema by executing scripts under the [db_schema](https://github.gatech.edu/cs6400-2022-01-spring/cs6400-2022-01-Team083/tree/main/GameSwap/db_schema) folder. 
+Use PHPMyAdmin to create the schema by executing scripts under the `db_schema` folder. 
 
 
 ### C.  Install recommended tools and extensions.
