@@ -29,13 +29,13 @@ SELECT Round(AVG(rating),2) as rating FROM
 	FROM swap
 ) Table1
 WHERE
-rating is NOT NULL and itemnumber IN (SELECT itemnumber FROM item WHERE email = 'akaba7@gatech.edu')
+rating is NOT NULL and itemnumber IN (SELECT itemnumber FROM item WHERE email = '')
 
 -- Unaccepted swaps 
 SELECT proposeditemnumber,desireditemnumber, DATEDIFF(CURDATE(),proposeddate) as days
 FROM swap
 WHERE 
-desireditemnumber IN (SELECT itemnumber FROM item WHERE email = 'akaba7@gatech.edu')
+desireditemnumber IN (SELECT itemnumber FROM item WHERE email = '')
 AND swapstatus ='proposed'
 
 -- Unrated swaps 
@@ -43,8 +43,8 @@ SELECT proposeditemnumber,desireditemnumber
 FROM swap
 WHERE 
 (
-proposerrating is NULL and proposeditemnumber IN (SELECT itemnumber FROM item WHERE email = 'akaba7@gatech.edu')
-or counterpartyrating is NULL and desireditemnumber IN (SELECT itemnumber FROM item WHERE email = 'akaba7@gatech.edu')
+proposerrating is NULL and proposeditemnumber IN (SELECT itemnumber FROM item WHERE email = '')
+or counterpartyrating is NULL and desireditemnumber IN (SELECT itemnumber FROM item WHERE email = '')
 )
 AND
 swapstatus ='accepted'
