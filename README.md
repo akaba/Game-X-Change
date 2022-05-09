@@ -1,10 +1,6 @@
 # Game-X-Change Project Overview
 Game-X-Change is a React.js project. The purpose of this project is to analyze, specify, design, implement, document, and demonstrate an app developed as a team.
 
-In recent years, the sales of board games, video game systems, and other home entertainment activities skyrocketed. Today, many people find themselves with a surplus of games and other items. GameSwap is a bartering website for trading these items. Initially, it will be limited to some specific types of items and is intended for making local trades, although users who are not located close to each other might figure out shipping details on their own.
-
-
-
 
 
 # Project setup instructions
